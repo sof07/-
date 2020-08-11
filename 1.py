@@ -2,8 +2,7 @@ from docx import Document
 import os
 import pandas as pd
 
-#directory = 'C:\\Users\\Антон\\Desktop\\флешка\\Питон'
-#NUMBER_GROUP = '4'
+
 NUMBER_GROUP = input('Введите номер группы:  ')
 directory = input('Вставьте путь к папке с файлами: ')
 directory_save = input('Вставьте путь к папке в которую сохранить конечный файл: ')
